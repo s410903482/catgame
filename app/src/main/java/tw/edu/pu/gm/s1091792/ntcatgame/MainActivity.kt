@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun swac(view: View){
-        val intent = Intent(this, intro::class.java )
+        val intent = Intent(this, SignInActivity::class.java )
         startActivity(intent)
     }
 

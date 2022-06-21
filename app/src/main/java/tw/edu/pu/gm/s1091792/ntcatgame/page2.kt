@@ -1,4 +1,5 @@
 package tw.edu.pu.gm.s1091792.ntcatgame
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
