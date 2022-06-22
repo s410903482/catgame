@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/q1">
+    android:background="@drawable/q2">
 
     <ImageButton
         android:id="@+id/btn_yes"
@@ -23,7 +23,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.505" />
-
     <ImageButton
         android:id="@+id/btn_no"
         android:layout_width="131dp"

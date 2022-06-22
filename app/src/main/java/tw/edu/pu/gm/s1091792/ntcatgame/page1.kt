@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class page1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.page2);
+        setContentView(R.layout.page1);
 
         Intent(this, MusicService::class.java).also { intent ->
             startService(intent)
