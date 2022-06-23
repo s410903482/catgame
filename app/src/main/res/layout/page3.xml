@@ -4,37 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nq2">
+    android:background="@drawable/three">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="139dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/y" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="179dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat" />
 
     <ImageButton
-        android:id="@+id/button3"
-        android:layout_width="131dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="521dp"
-        android:layout_marginEnd="220dp"
-        android:layout_marginBottom="47dp"
-        android:background="@drawable/yes"
+        android:id="@+id/btn_sure"
+        android:layout_width="183dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sure"
         android:onClick="swac"
-        android:text="Button"
+        android:text="no"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <ImageButton
-        android:id="@+id/button4"
-        android:layout_width="131dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="521dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="47dp"
-        android:background="@drawable/no"
-        android:onClick="swac"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

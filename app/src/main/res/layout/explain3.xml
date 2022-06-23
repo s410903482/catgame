@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/e3">
+    android:background="@drawable/explain3">
 
 
     <ImageButton
         android:id="@+id/button5"
         android:layout_width="183dp"
         android:layout_height="89dp"
-        android:layout_marginStart="158dp"
-        android:layout_marginTop="521dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="47dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/g"
         android:onClick="swac"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
 </androidx.constraintlayout.widget.ConstraintLayout>
